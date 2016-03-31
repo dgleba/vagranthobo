@@ -8,7 +8,7 @@ VAGRANTFILE_API_VERSION = "2"
 
 Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   # Box for Vagrant Virtualbox / Vmware (default)
-  config.vm.box = "hashicorp/precise64"
+  config.vm.box = "hashicorp/trusty64"
 
   # Box for Vagrant LXC
   # config.vm.box = "precise64"
